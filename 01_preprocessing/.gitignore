@@ -1,0 +1,12 @@
+# Ignore the Python virtual environment
+venv/
+
+# Ignore all data folders (raw, processed, and final)
+# These are too large for GitHub and will be zipped
+data/raw/
+data/processed/
+data/final_dataset/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
